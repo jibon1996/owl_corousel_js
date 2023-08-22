@@ -1,0 +1,40 @@
+.item{
+    height: 300px;
+}
+
+/* owl arrow design start  */
+.slick-arrow{
+    position: absolute;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    display: block;
+}
+
+.slick-arrow.prev{
+    left: 10%;
+}
+.slick-arrow.next{
+    right: 10%;
+}
+.owl-carousel .owl-nav button.owl-prev,.owl-carousel .owl-nav button.owl-next{
+    font-size: 25px;
+    color:#f6f6f6;  
+}
+.owl-carousel .owl-nav button.owl-prev:hover{
+    color:#4DC7A0;
+}
+.owl-carousel .owl-nav button.owl-next:hover{
+    color:#4DC7A0;
+}
+/* owl arrow design end  */
+/* owl dots design start  */
+.owl-theme .owl-dots{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* owl dots design start  */
+
+
+
